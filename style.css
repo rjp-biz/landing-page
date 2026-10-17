@@ -26,6 +26,23 @@ button {
     border: none;
 }
 
+footer {
+    background-color: #1F2937;
+}
+
+.footer-section {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-size: 14px;
+}
+
+.cta-button {
+    border: 2px solid white;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -166,6 +183,24 @@ button {
     margin: 0 auto;
 }
 
+.bold-p {
+    font-weight: 900;
+}
+
+.cta-container {
+    margin: 64px 0;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    padding: 32px;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.cta-subtext {
+    font-size: 12px;
+    color: #E5E7EB;
+}
 
 
 @media (max-width: 700px) {
